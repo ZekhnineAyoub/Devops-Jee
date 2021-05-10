@@ -13,7 +13,7 @@ public class RestaurantController {
     @GetMapping("/all")
     public String afficheText(){
 
-        return "Hellow world";
+        return "je suis le meilleur ";
 
     }
 
