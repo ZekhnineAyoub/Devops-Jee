@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(path = "restaurant")
 public class RestaurantController {
 
-    @GetMapping("/all")
+    @GetMapping("/all/add")
     public String afficheText(){
 
-        return "je suis le meilleur félicitation ";
+        return "hellow world félicitation ";
 
     }
 
